@@ -1,0 +1,33 @@
+.commentsMain{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.commentMain{
+    background-color: rgb(121, 194, 194);
+    border: 2px;
+    border-radius: 5px;
+    border-color: rgb(67, 236, 236);
+    padding: 20px;
+    margin: 30px;
+    width: 500px;
+}
+
+.usercomment{
+    background-color:rgb(250, 198, 191, 0.7);
+    border: 12px;
+    border-radius: 3px;
+}
+
+.titleTea-inprofile{
+    background-color: rgb(121, 194, 194);
+    font-weight: 900;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.comments{
+    font-weight: 900;
+    font-size: 20px;
+}

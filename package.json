@@ -1,0 +1,39 @@
+{
+  "name": "contract-project-chai",
+  "version": "1.0.0",
+  "description": "[Слушать звонок](https://drive.google.com/file/d/1QoU0gPMFfrNFb_ZaLc-Md-MVFqzBnB1T/view?usp=sharing)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "createdb": "npx sequelize db:create",
+    "dropdb": "npx sequelize db:drop",
+    "migratedb": "npx sequelize db:migrate",
+    "migratedrop": "npx sequelize db:migrate:undo:all",
+    "seeddb": "npx sequelize db:seed:all",
+    "seeddrop": "npx sequelize db:seed:undo:all",
+    "demon": "nodemon app.js --ext js,jsx,json --ignore sessions",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.0",
+    "pg": "^8.11.5",
+    "pg-hstore": "^2.3.4",
+    "react-router-dom": "^6.23.1",
+    "sequelize": "^6.37.3",
+    "sequelize-cli": "^6.6.2",
+    "session-file-store": "^1.5.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}

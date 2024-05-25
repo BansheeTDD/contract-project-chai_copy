@@ -1,0 +1,14 @@
+.cardTea{
+    display: flex;
+    padding: 20px;
+  /* flex-wrap: wrap; */
+  justify-content: center
+}
+.descrTea{
+    width: 400px;
+    padding-top: 50px;
+}
+.titleTea{
+    font-size: 20px;
+    background-color:rgb(33, 219, 219)
+}

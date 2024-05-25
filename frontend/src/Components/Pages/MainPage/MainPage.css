@@ -1,0 +1,79 @@
+body{
+    background-color:aqua
+}
+ img{
+width: 350px;
+  height: 250px;
+  border-radius: 16px;
+ }
+
+ .tea-wrapper {
+    /* position: relative; */
+    /* width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%; */
+ }
+
+ .titleTeaMap{
+    /* width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 60px;
+    transform: translateX(0.9em) translateY(1.3em) rotate(0.02turn) skew(50deg); */
+    border: 20px solid transparent; 
+    border-top: 20px solid red;
+    width: 10px;
+}
+
+
+.titleTeaMap:before {
+    content: attr(data-tea);
+    position: absolute;
+    visibility: hidden; 
+    }
+
+
+
+.titleTeaMap:hover:before {
+    visibility: visible;
+    color: red;
+    background-color: white;
+}
+
+.titleTeaMap[data-id='1'] {
+    transform: translateX(400px) translateY(-200px)
+
+}
+
+.titleTeaMap[data-id='2'] {
+    transform: translateX(500px) translateY(-300px)
+
+}
+
+.titleTeaMap[data-id='3'] {
+    transform: translateX(320px) translateY(-420px)
+
+}
+
+.titleTeaMap[data-id='4'] {
+    transform: translateX(180px) translateY(-520px)
+
+}
+
+.cardTea{
+    display: flex;
+    padding: 20px;
+  /* flex-wrap: wrap; */
+  /* justify-content: center */
+}
+
+.descrTea{
+    width: 300px;
+    padding-top: 50px;
+}
+
+.tea-map {
+    width: 700px;
+    height: 500px;
+}
